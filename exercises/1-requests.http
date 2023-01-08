@@ -1,0 +1,41 @@
+GET http://localhost:8080/api/songs
+
+###
+POST http://localhost:8080/api/songs
+Content-Type: application/json
+
+{
+  "subject": "Stop Work, Time For Days",
+  "duration": "PT2M19S"
+}
+
+###
+GET http://localhost:8080/api/podcasts
+
+###
+POST http://localhost:8080/api/podcasts
+Content-Type: application/json
+
+{
+  "title": "Helpprism",
+  "date": "20.01.2000"
+}
+
+###
+GET http://localhost:8080/api/audiobooks
+
+###
+POST http://localhost:8080/api/audiobooks
+Content-Type: application/json
+
+{
+  "title": "The Sons of the Nova",
+  "chapters": [
+    {
+      "title": "Hand of Titan"
+    },
+    {
+      "title": "Storms of Capella"
+    }
+  ]
+}
